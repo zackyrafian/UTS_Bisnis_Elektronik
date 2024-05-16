@@ -1,0 +1,16 @@
+/* DashboardComponent.module.css */
+.dashboardContainer {
+    display: flex;
+    background-color: #f5f5fa;
+    /* background-color: #f8f8fd; */
+  }
+  
+  .sidebar {
+    flex: 0 0 200px;
+  }
+  
+  .content {
+    flex-grow: 1; /* Konten mengisi sisa lebar */
+    padding-left: 10px;
+  }
+  

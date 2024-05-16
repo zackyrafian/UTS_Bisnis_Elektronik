@@ -1,0 +1,134 @@
+.content__container {
+    max-width: 1280px;
+    /* Set maximum width */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    padding: 0 20px;
+    /* Add some padding on the sides */
+    display: flex;
+}
+
+.side__left,
+.side__right {
+    flex: 1;
+}
+
+.side__left {
+    flex: 36%;
+}
+
+.side__right {
+    flex: 64%;
+}
+
+/* 
+.side__left {
+} */
+
+.img__header {
+    width: 98%;
+    height: 200px;
+}
+
+.description,
+.left__title {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title {
+    font-size: 18px;
+}
+
+/* .side__right {
+} */
+
+
+.formInput {
+    border: 1px solid #000;
+    border-radius: 10px;
+    line-height: 46px;
+    width: 50%;
+    height: 40px;
+    padding: 0 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+
+}
+
+.userInput {
+    /* background-color: red; */
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 10px 15px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    color: #202020;
+}
+
+.product {
+    /* background-color: red; */
+    border : 1px solid gray;
+    border-radius: 8px;
+    padding: 0px 15px;
+    margin-top: 10px;
+
+}
+
+.productItem {
+    border: 2px solid #103c34;
+    border-radius: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 13%;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.productList {
+    display: flex; /* menggunakan flexbox */
+    list-style: none; /* menghilangkan poin list */
+    padding: 0; 
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.img__product {
+    /* width: 150%;
+    height: auto; */
+
+    width: 50px;
+    height: 50px;
+}
+
+.productContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* pusatkan vertikal */
+    text-align: center; /* pusatkan horizontal */
+  }
+
+  .productText {
+    margin: 5px 0; /* atur margin atas dan bawah */
+  }
+
+
+.payments {
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+.payment__list {
+    border-radius: 8px;
+    border: 1px solid gray;
+    padding: 10px 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.img__payment{
+    width: 15%;
+}
+

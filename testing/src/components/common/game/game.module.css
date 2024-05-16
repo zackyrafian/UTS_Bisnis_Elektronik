@@ -1,0 +1,39 @@
+/* game.module.css */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .gameImage {
+    width: 100%;
+    max-width: 190px;
+    height: auto;
+    max-height: 250px;
+    border-radius: 10px;
+  }
+  
+  .content__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Membuat kolom grid responsif */
+    gap: 10px;
+  }
+  
+  .gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+  
+  .content { 
+    color: #000;   
+    text-decoration: none;
+  }
+  
+  .title { 
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+  }
+  

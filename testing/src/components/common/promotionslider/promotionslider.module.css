@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Atur tinggi sesuai kebutuhan */
+}
+
+.img { 
+    width: 800px;
+    height: 350px;
+    border-radius: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sliderContainer {
+    max-width: 50%; /* Set lebar maksimum container */
+    margin: 0 auto; /* Pusatkan container */
+    margin-top: 20px;
+  }
+
+.sliderImage {
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+

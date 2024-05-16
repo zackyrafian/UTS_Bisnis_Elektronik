@@ -1,0 +1,71 @@
+
+
+.content__container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .btn__auth {
+    height: 32px;
+    background: none;
+    padding: 0px 16px; 
+    border : 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 800;
+    justify-content: center;
+    text-decoration: none;
+} */
+
+.linkTitle {
+    text-decoration: none;
+}
+
+.title {
+    color : #000;
+    text-decoration: none;
+}
+
+
+.btn__auth {
+    height: 32px;
+    background: #103c34;
+    color:white;
+    padding: 0px 16px;
+    border : 1px ;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn__login {
+    height: 32px;
+    background: none;
+    color:#103c34;
+    padding: 0px 16px;
+    border : 1px solid #103c34;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.authButtons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
